@@ -255,7 +255,7 @@ call \_IntProlog, then AvrXTimerHandler, then \_Epilog. The call to \_IntProlog
 will enable interrupts and the high speed code will continue to run. Make sure 
 you reset your counter before dropping into the AvrX code!
 
-
+## How to run the tests
 Dec-9-2025, Wei-Min Shen
 	to compile everything, type "make" at the top directory
         to run the tests, "cd test", "make", and "simavr -m atmega1281 BasicTest1.elf"
