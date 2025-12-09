@@ -256,3 +256,6 @@ will enable interrupts and the high speed code will continue to run. Make sure
 you reset your counter before dropping into the AvrX code!
 
 
+Dec-9-2025, Wei-Min Shen
+        to run the tests, "cd test", "make", and "simavr -m atmega1281 BasicTest1.elf"
+        Have fun!!! No hardware is needed, simavr will run the code for you!

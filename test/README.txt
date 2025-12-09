@@ -1,5 +1,9 @@
 AvrX for avr-gcc, version 2.6 test cases
 
+Dec-9-2025, Wei-Min Shen
+	to run the tests, cd test, make, and "simavr -m atmega1281 BasicTest1.elf"
+	Have fun!!! 
+
 18-Sept-2005
 
 	1. New makefile for GCC, uses dwarf-2 debug format which works well with
