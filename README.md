@@ -257,5 +257,6 @@ you reset your counter before dropping into the AvrX code!
 
 
 Dec-9-2025, Wei-Min Shen
+	to compile everything, type "make" at the top directory
         to run the tests, "cd test", "make", and "simavr -m atmega1281 BasicTest1.elf"
         Have fun!!! No hardware is needed, simavr will run the code for you!
