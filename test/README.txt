@@ -1,10 +1,12 @@
 AvrX for avr-gcc, version 2.6 test cases
 
-Dec-9-2025, Wei-Min Shen
-	to run the tests, cd test, make, and "simavr -m atmega1281 BasicTest1.elf"
-	Have fun!!! 
+## Dec-9-2025, Wei-Min Shen
+	to run the tests, cd test, make, and then there are two ways to run the rests:
+	1. type "make run1", or "make runX" where X={1,2,3,4}, which calls "sumulavr"
+	2. type "simavr -m atmega1281 BasicTestX.elf" where X={1,2,3,4}
+	There is no need to have any hardware. Have fun!!! 
 
-18-Sept-2005
+## 18-Sept-2005
 
 	1. New makefile for GCC, uses dwarf-2 debug format which works well with
 	the new Astudio 4.11 or greater.
@@ -15,7 +17,7 @@ Dec-9-2025, Wei-Min Shen
 	3. Added "hardware.h" to directory to cover major hardware variations
 	between CPU families.
 
-8-June-2001
+## 8-June-2001
 
 After executing a "make clean" the directory listing is as follows:
 
